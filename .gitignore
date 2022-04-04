@@ -21,3 +21,11 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+
+# ignore backup files
+wp-content/backups-dup-lite/
+
+# ignore core files
+wp-admin/
+wp-includes/
+/*.php
